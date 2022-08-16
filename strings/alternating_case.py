@@ -21,3 +21,7 @@ def alternating_case(words: str) -> str:
             processed_word += words[index].lower()
         first_letter_case = not first_letter_case
     return processed_word
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
